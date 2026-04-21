@@ -1,0 +1,25 @@
+Title: Attention Is All You Need
+
+Abstract:
+The paper introduces the Transformer, a novel neural network architecture based entirely on attention mechanisms, dispensing with recurrence and convolutions entirely. The Transformer allows for much more parallelization and can reach a new state of the art in translation quality.
+
+Introduction:
+Neural sequence transduction models have become the standard approach for machine translation and other sequence-to-sequence tasks. Recurrent neural networks (RNNs), especially long short-term memory (LSTM) and gated recurrent units (GRUs), have been widely used. However, these models are difficult to parallelize due to their sequential nature.
+
+The paper proposes the Transformer model, which relies entirely on self-attention mechanisms to compute representations of its input and output sequences.
+
+Methodology:
+The Transformer architecture consists of an encoder-decoder structure. The encoder is composed of a stack of identical layers, each containing two sub-layers: a multi-head self-attention mechanism and a feed-forward neural network.
+
+Self-attention allows the model to weigh the importance of different words in a sentence relative to each other. Multi-head attention enables the model to jointly attend to information from different representation subspaces.
+
+Positional encoding is used to retain the order of the sequence, since the model itself does not process the data sequentially.
+
+Experiments:
+The model was tested on the WMT 2014 English-to-German and English-to-French translation tasks. Results show that the Transformer achieves better accuracy while requiring significantly less training time compared to traditional recurrent models.
+
+Results:
+The Transformer achieved a BLEU score of 28.4 on the English-to-German translation task, outperforming existing models. It also demonstrated improved computational efficiency.
+
+Conclusion:
+The Transformer model demonstrates that attention mechanisms alone are sufficient for sequence modeling tasks. The architecture significantly improves parallelization and achieves state-of-the-art performance in machine translation tasks.

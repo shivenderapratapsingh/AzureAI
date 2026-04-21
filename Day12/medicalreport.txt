@@ -1,0 +1,15 @@
+Patient Name: Rahul Sharma
+Age: 45
+
+Test: Complete Blood Count
+
+Hemoglobin: 10 g/dL (Low)
+Normal range: 13-17 g/dL
+
+WBC Count: 12000 cells/mcL (High)
+Normal range: 4000-11000 cells/mcL
+
+Platelets: 150000 cells/mcL (Normal)
+
+Cholesterol: 240 mg/dL (High)
+Normal range: below 200 mg/dL
